@@ -156,7 +156,7 @@ def event_handle(event):
             line_bot_api.reply_message(rtoken, replyObj)
         elif (msg == "กินข้าวไหม") :
             replyObj = TextSendMessage(text="กินดิ")
-li          ne_bot_api.reply_message(rtoken, replyObj)
+            line_bot_api.reply_message(rtoken, replyObj)
         elif (msg == "กินขนมกันไหม") : 
             replyObj = TextSendMessage(text="ไม่เอา")
             line_bot_api.reply_message(rtoken, replyObj)
